@@ -1,0 +1,4 @@
+display_name = "Trampoline"
+authors = "natinusala|bparker06"
+supported_extensions = "nro"
+corename = "trampoline"

@@ -223,7 +223,7 @@ bool retro_load_game(const struct retro_game_info *info)
    (void)info;
 
    char path[255];
-   snprintf(path, sizeof(path), "sdmc:/%s", info->path, info->path);
+   snprintf(path, sizeof(path), "sdmc:%s", info->path, info->path);
    envSetNextLoad(path, info->path);
 
    printf("Set %s as path, %s as args\n", path, info->path);
